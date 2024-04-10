@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class EmployeeCSVFileReaderTest {
 
     @Test
-    public void testReadEmployeesFromFile() throws FileNotFoundException {
+    public void testReadEmployeesFromFile() {
         // Prepare test data
         String filePath = "src/test/resources/test_employees.csv";
         EmployeeFileReader reader = new EmployeeCSVFileReader();

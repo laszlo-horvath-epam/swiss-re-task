@@ -1,8 +1,5 @@
 package org.epam.swissre.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Employee {
 
     private Integer id;
